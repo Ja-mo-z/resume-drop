@@ -9,11 +9,16 @@ import {
 const links = [
   { name: 'Home', href: '/dashboard', icon: HomeIcon },
   {
-    name: 'Invoices',
-    href: '/dashboard/invoices',
+    name: 'Resumes',
+    href: '/dashboard/resumes',
     icon: DocumentDuplicateIcon,
   },
-  { name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon },
+  { name: 'Headers', href: '/dashboard/headers', icon: UserGroupIcon },
+  { name: 'Experiences', href: '/dashboard/experiences', icon: UserGroupIcon },
+  { name: 'Skills', href: '/dashboard/skills', icon: UserGroupIcon },
+  { name: 'Projects', href: '/dashboard/projects', icon: UserGroupIcon },
+
+  { name: 'Cover Letters', href: '/dashboard/cover-letters', icon: UserGroupIcon },
 ];
 
 export default function NavLinks() {
